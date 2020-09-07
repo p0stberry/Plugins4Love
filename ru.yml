@@ -1,0 +1,105 @@
+# Brew
+Brew_-times: -раз
+Brew_BadPotion: Шмурдяк
+Brew_BarrelRiped: Выдержано в бочке
+Brew_DistillUndefined: Мутное дистилированое варево
+Brew_Distilled: Дистиллированно
+Brew_LessDistilled: Слабо дистиллированно
+Brew_HundredsOfYears: Сотня лет
+Brew_Ingredients: Ингредиенты
+Brew_MinutePluralPostfix: с
+Brew_OneYear: Год
+Brew_ThickBrew: Густое варево
+Brew_Undefined: Странное варево
+Brew_Woodtype: Тип древесины
+Brew_Years: Лет
+Brew_fermented: Бродившее
+Brew_minute: мин
+Brew_Alc: Алк &v1мл
+
+# CMD
+CMD_Copy_Error: '&6&v1 &cНапитки не вмещаются в ваш инвентарь'
+CMD_Info_Drunk: '&v1 на &6&v2% &fпьян, качество опьянения &6&v3'
+CMD_Info_NotDrunk: '&v1 не пьян'
+CMD_NonStatic: '&eНапиток больше не статичный и будет изменяться в бочках.'
+CMD_Player: '&a&v1 сейчас на &6&v2% &aпьян, качество опьянения &6&v3'
+CMD_Player_Error: '&cКачество должно быть от 1 до 10!'
+CMD_Reload: '&aКонфиг успешно перезагружен'
+CMD_Created: '&aНапиток создан!'
+CMD_Configname: '&aНазвание конфига: &f&v1'
+CMD_Configname_Error: '&cНет предмета в руке!'
+CMD_Static: '&aНапиток теперь статичный и не будет изменяться в бочках и варочных стойках'
+CMD_UnLabel: '&aЭтикетка удалена!'
+
+# Error
+Error_ConfigUpdate: 'Неизвестная версия конфига: v&v1, конфиг не обновлен!'
+Error_ItemNotPotion: '&cПредмет в ваших руках не распознается как зелье!'
+Error_SealingTableDisabled: '&cУпаковочный стол отключен!'
+Error_SealedAlwaysStatic: 'Закупоренные напитки всегда статичны!'
+Error_AlreadyUnlabeled: '&cНапиток в ваших руках не маркирован!'
+Error_NoBarrelAccess: '&cУ вас нет доступа к этой бочке!'
+Error_NoBrewName: '&cРецепта с названием: ''&v1&c'' не найдено!'
+Error_NoPermissions: '&cУ вас недостаточно прав!'
+Error_PlayerCommand: '&cЭта команда может быть выполнена только игроком!'
+Error_Recipeload: '&cНе все рецепты могут быть восстановлены: Больше информации в логе сервера!'
+Error_ShowHelp: Используйте &6/brew help &fчтобы отобразить меню информации
+Error_UnknownCommand: Неизвестная команда
+Error_YmlRead: 'Невозможно прочесть config.yml, пожалуйста, убедитесь в правильности yml формата (правильные пробелы, использование '' '' и т.д.)'
+
+# Etc
+Etc_Barrel: Бочка
+Etc_Page: Страница
+Etc_Usage: 'Использование:'
+Etc_SealingTable: Упаковочный стол
+
+# Help
+Help_Copy: '&6/brew copy [Quantity]&9 Копирует зелье в руке'
+Help_Create: '&6/brew create <Recipe> [Quality] [Player] &9Создает зелье с нужным качеством (1-10)'
+Help_Delete: '&6/brew delete &9Удаляет зелье в руке'
+Help_Help: '&6/brew help [Page] &9Показывает конкретное меню помощи'
+Help_Info: '&6/brew info&9 Отображает вашу текущую стадию и качество опьянения'
+Help_InfoOther: '&6/brew info [Player]&9 Отображает текущую стадию и качество опьянения [Player]'
+Help_Player: '&6/brew <Player> <%Drunkeness> [Quality]&9 Устанавливает стадию (и качество) опьянения Игрока'
+Help_Reload: '&6/brew reload &9Перезагрузка конфига'
+Help_Configname: '&6/brew ItemName &9Отображает название предмета в руке для конфигурации'
+Help_Static: '&6/brew static &9Сделать напиток статичным -> Без дальнейшей выдержки или перегонки'
+Help_UnLabel: '&6/brew unlabel &9Убирает этикетку напитка'
+Help_Seal: '&6/brew seal &9Запечатывает напитки для продажи'
+Help_Wakeup: '&6/brew wakeup list <Page>&9 Перечисляет все существующие места пробуждения'
+Help_WakeupAdd: '&6/brew wakeup add &9Добавляет место пробуждения на текущей позиции'
+Help_WakeupCheck: '&6/brew wakeup check &9Телепортироваться на все места пробуждения'
+Help_WakeupCheckSpecific: '&6/brew wakeup check <id> &9Телепортироваться на место пробуждения <id>'
+Help_WakeupList: '&6/brew wakeup list <Page> [World]&9 Перечисляет все места пробуждения в этом <world>'
+Help_WakeupRemove: '&6/brew wakeup remove <id> &9Убирает место пробуждения <id>'
+
+# Perms
+Perms_NoBarrelCreate: '&cУ вас нет прав создавать бочки!'
+Perms_NoBigBarrelCreate: '&cУ вас нет прав создавать большие бочки!'
+Perms_NoCauldronFill: '&cУ вас нет прав наполнять бутылки из этого котла!'
+Perms_NoCauldronInsert: '&cУ вас нет прав использовать ингредиенты в котлах!'
+Perms_NoSmallBarrelCreate: '&cУ вас нет прав создавать маленькие бочки!'
+
+# Player
+Player_BarrelCreated: Бочка создана
+Player_BarrelFull: '&cЭта бочка не может содержать больше напитков'
+Player_CantDrink: Вы не можете больше пить.
+Player_CauldronInfo1: Этот котел кипит &v1 мин.
+Player_CauldronInfo2: Этот котел только начал кипеть.
+Player_DrunkPassOut: Вы выпили слишком много и упали в отключку.
+Player_LoginDeny: Вы попытались войти, но ваш персонаж слишком пьян, чтобы войти на сервер. Попробуйте снова!
+Player_LoginDenyLong: Ваш персонаж пьяный до безсознания. Попробуйте снова через 10 минут!
+Player_TriedToSay: '&v1 попытался сказать: &0&v2'
+Player_Wake: Ох! Я не помню, как я сюда попал...
+Player_WakeAlreadyDeleted: '&cМесто пробуждения: &6&v1 &cБыло удалено!'
+Player_WakeCancel: '&6Мест пробуждения было отклонено'
+Player_WakeCreated: '&aМесто пробуждения: &6&v1 &aсоздано успешно!'
+Player_WakeDeleted: '&aМесто пробуждения: &6&v1 &aудалено успешно!'
+Player_WakeFilled: '&cМесто пробуждения: &6&v1&c на координатах &6&v2 &v3, &v4, &v5&c заполнено блоками!'
+Player_WakeHint1: 'К следующему месту пробуждения: ударьте воздух'
+Player_WakeHint2: 'Отменить: &9/br wakeup cancel'
+Player_WakeLast: '&aЭто было последнее место пробуждения'
+Player_WakeNoCheck: '&cНет активных мест пробуждения'
+Player_WakeNoPoints: '&cНет мест пробуждения!'
+Player_WakeNotExist: '&cМесто пробуждения с id: &6&v1 &cне существует!'
+Player_WakeTeleport: 'Телепортация на место пробуждения: &6&v1&f На позиции: &6&v2 &v3, &v4, &v5'
+Player_ShopSealBrew: '&eБутылки должны быть запечатаны перед продажей!'
